@@ -27,3 +27,6 @@ The directory structure should look like this:
 ### 2. POST /data/updated
 #### Request Body: none
 #### Alert the backend the the data file (.csv) changed. Make the caching functionality to reset
+
+## Usage Instructions
+### In the case that the csv files change while the backend is running, call POST /data/updated to alert the backend that the data source has changed. This will reset the 'cache'
